@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e2e1e1;
+}
+
+thead td {
+    background-color: #4c4747;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+tbody td {
+    width: 50px;
+    height: 80px;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.avatar-3 {
+    background-image: url("Avatar.webp");
+    background-position: center center;
+    background-size: 60px 70px;
+    background-repeat: no-repeat;
+}
+
+.avatar-2 {
+    background-image: url("girl.jpg");
+    background-repeat: no-repeat;
+    background-size: 60px 70px;
+    background-position: center center;
+}
+
+.blue {
+    padding: 10px;
+    background-color: #57cbff;
+    margin-right: 2px;
+    color: white;
+    
+}
+
+.red {
+    padding: 10px;
+    background-color: #ee568a;
+    margin-left: 2px;
+    color: white;
+    
+}
+
+.yassin {
+    display: inline-block;
+    width: 150px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
