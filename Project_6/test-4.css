@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent div {
+    float: left;
+}
+
+.first {
+    width: 250px;
+    height: 315px;
+    background-color: #ececec;
+    position: relative;
+}
+
+.first::before {
+    content: "Basic";
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    background-color: #03A9F4;
+    position: absolute;
+    box-sizing: border-box;
+    left: 25px;
+    top: 25px;
+    border-radius: 7px;
+}
+
+.first::after {
+    content: "Free";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #cacaca;
+    border-radius: 50%;
+    left: 25px;
+    bottom: 25px;
+    text-align: center;
+    line-height: 4.6;
+    font-size: 42px;
+}
+
+.or {
+    width: 50px;
+    height: 350px;
+    position: relative;
+}
+
+.or::before {
+    content: "";
+    display: block;
+    background-color: #03A9F4;
+    width: 1px;
+    height: 315px;
+    position: absolute;
+    left: 24px;
+
+}
+
+.or::after {
+    content: "Or";
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+    line-height: 2;
+    width: 25px;
+    height: 25px;
+    background-color: #03A9F4;
+    border-radius: 50%;
+    position: absolute;
+    top: 145px;
+    left: 12px;
+}
+
+.second {
+    width: 250px;
+    height: 315px;
+    background-color: #ececec;
+    position: relative;
+}
+
+.second::before {
+    content: "Pro";
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    background-color: #03A9F4;
+    position: absolute;
+    box-sizing: border-box;
+    left: 25px;
+    top: 25px;
+    border-radius: 7px;
+}
+
+.second::after {
+    content: "$30";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #cacaca;
+    border-radius: 50%;
+    left: 25px;
+    bottom: 25px;
+    text-align: center;
+    line-height: 4.6;
+    font-size: 42px;
+}
+
+.clr {
+    clear: both;
+}
